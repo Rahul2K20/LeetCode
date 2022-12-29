@@ -5,6 +5,7 @@ class Solution(object):
            if nums[i] != 0: 
                nums[i],nums[j] = nums[j], nums[i]
                j+=1
+       return nums
                
                
 # We use i to keep track of position of the first zero in the list (which changes as we go).

@@ -1,5 +1,4 @@
 #Iterative DFS solution
-from collections import deque
 class Solution(object):
     def maxDepth(self, root):
       stack = [[root, 1]]
